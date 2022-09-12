@@ -1,0 +1,8 @@
+.place {
+  list-style-type: none;
+  padding: 0;
+  max-width: 984px;
+  max-height: 660px;
+  display: flex;
+  margin-bottom: 80px;
+}

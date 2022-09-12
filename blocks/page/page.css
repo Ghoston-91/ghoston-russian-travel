@@ -1,5 +1,6 @@
 .page {
   font-family: 'Inter';
+  font-weight: 400;
   min-width: 1280px;
   max-width: 1600px;
   margin: 0 auto;
@@ -7,4 +8,9 @@
   color: #fff;
 }
 
+@media screen and (max-width: 1024px) {
+  .page {
+    min-width: 1024px;
+  }
 
+}
