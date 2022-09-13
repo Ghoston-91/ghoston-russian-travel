@@ -1,0 +1,56 @@
+.cover {
+  background-image: url('../../images/cover_image.jpg');
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  position: relative;
+  margin: 92px auto;
+  max-width: 1184px;
+  min-height: 740px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.cover::before {
+  content: "";
+  background: #2A2C2F;
+  position: absolute;
+  min-width: 1184px;
+  min-height: 740px;
+  opacity: 0.3;
+  z-index: -1;
+}
+.cover:hover::before {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
+    min-height: 640px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    width: 100%;
+    min-height: 480px;
+  }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .cover {
+    min-width: 320px;
+    min-height: 200px;
+    margin: 66px auto 64px;
+  }
+
+}

@@ -2,6 +2,8 @@
   max-width: 460px;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 1.06;
   margin: 0;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
