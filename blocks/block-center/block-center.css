@@ -2,3 +2,19 @@
   margin: 0 auto;
   max-width: 984px;
 }
+@media screen and (max-width: 1024px) {
+  .block-center {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .block-center {
+    max-width: 767px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .block-center {
+    max-width: 320px;
+  }
+}

@@ -9,3 +9,10 @@
 .lang__link:hover {
   border-bottom: solid #fff 2px;
 }
+
+@media screen and (max-width: 320px) {
+  .lang__link {
+  font-size: 18px;
+  line-height: 1.11;
+  }
+}

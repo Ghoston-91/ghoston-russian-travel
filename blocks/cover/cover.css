@@ -7,8 +7,6 @@
   margin: 92px auto;
   max-width: 1184px;
   min-height: 740px;
-  justify-content: center;
-  align-items: center;
   text-decoration: none;
   color: #fff;
   display: flex;
@@ -21,7 +19,7 @@
   content: "";
   background: #2A2C2F;
   position: absolute;
-  min-width: 1184px;
+  width: 1184px;
   min-height: 740px;
   opacity: 0.3;
   z-index: -1;
@@ -32,25 +30,36 @@
 
 @media screen and (max-width: 1024px) {
   .cover {
-    max-width: 1024px;
+    max-width: 100%;
     min-height: 640px;
   }
-
+  .cover::before {
+    width: 100%;
+    min-height: 640px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
+    max-width: 100%;
+    min-height: 480px;
+    margin: 90px auto 88px;
+  }
+  .cover::before {
     width: 100%;
     min-height: 480px;
-  }
-
-}
-
-@media screen and (min-width: 320px) and (max-width: 425px) {
-  .cover {
-    min-width: 320px;
-    min-height: 200px;
     margin: 66px auto 64px;
   }
+}
 
+@media screen and (max-width: 320px){
+  .cover {
+    max-width: 320px;
+    min-height: 200px;
+    margin: 66px auto;
+  }
+  .cover::before {
+    width: 100%;
+    min-height: 200px;
+  }
 }

@@ -1,5 +1,12 @@
 .logo {
   width: 176px;
   height: 52px;
+  background-size: contain;
   background-image: url(../../images/logo.png);
+}
+@media screen and (max-width: 320px) {
+  .logo {
+    width: 142px;
+    height: 42px;
+  }
 }
