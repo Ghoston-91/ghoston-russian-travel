@@ -1,17 +1,17 @@
-.lang__link {
+.header__link {
   margin-left: 20px;
   text-decoration: none;
   color: #fff;
   font-size: 24px;
-  line-height: 1.7;
+  line-height: 1.17;
 }
 
-.lang__link:hover {
+.header__link:hover {
   border-bottom: solid #fff 2px;
 }
 
 @media screen and (max-width: 320px) {
-  .lang__link {
+  .header__link {
   font-size: 18px;
   line-height: 1.11;
   }
