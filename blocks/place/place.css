@@ -14,12 +14,14 @@
 @media screen and (max-width: 1024px) {
   .place {
     max-width: 928px;
+    column-gap: 32px;
   }
 }
 @media screen and (max-width: 768px) {
   .place {
     max-width: 720px;
-    margin-bottom: 72px;
+    margin-bottom: 60px;
+    column-gap: 28px;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 600px) {

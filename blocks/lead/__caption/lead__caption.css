@@ -3,7 +3,7 @@
   line-height: 1.4;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  margin-top: 4px;
+  margin-top: 8px;
 }
 @media screen and (max-width: 768px) {
   .lead__caption {
@@ -12,6 +12,6 @@
 }
 @media screen and (max-width: 320px) {
   .lead__caption {
-    margin-left: 16px;
+    margin: 16px 0 0 8px;
   }
 }

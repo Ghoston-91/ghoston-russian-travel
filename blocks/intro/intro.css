@@ -5,11 +5,12 @@
 @media screen and (max-width: 768px) {
   .intro {
     max-width: 720px;
-    margin: 88px 24px 0;
+    margin: 88px auto 0;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 600px) {
   .intro {
-    margin: 64px 16px 0;
+    max-width: 288px;
+    margin: 64px auto 0;
   }
 }
