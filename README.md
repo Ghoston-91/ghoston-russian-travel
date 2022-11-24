@@ -7,7 +7,7 @@
 
 **Интро**
 
-Это проект по адаптиву - [Ссылка на проект](https://ghoston-91.github.io/ghoston-russian-travel/index.html)
+Это проект по адаптиву - [Ссылка на проект](https://ghoston-91.github.io/russian-travel_ghoston/index.html)
 
 
 **Figma**
